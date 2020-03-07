@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+/* .row{
+  margin-bottom: 10px;
+  height: 300px;
+} */
+
+.distance{
+  margin-right: 5px;
+}
+.mapStyle{
+ height: 100px;
+ float: left;
+}
+.contacStyle{
+  border: solid 1px grey;
+}
