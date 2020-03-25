@@ -85,11 +85,11 @@ export default class Homepage extends Component {
                })} 
                 </div>
             )
-        }else{ return <div>
-            <input onChange={this.addName} type="text" placeholder="name"/><br/>
-            <input onChange={this.addJob} type="text" placeholder="job"/><br/>
-            <input onChange={this.addPhone} type="number" placeholder="phone number"/><br/>
-            <button onClick={this.addContant}>Add contact</button><button onClick={this.changeflagvalue}>back</button>
+        }else{ return <div className="App">
+            <input onChange={this.addName} type="text" placeholder="name"/><br/><br/>
+            <input onChange={this.addJob} type="text" placeholder="job"/><br/><br/>
+            <input onChange={this.addPhone} type="number" placeholder="phone number"/><br/><br/>
+            <button style={{marginRight:5}} className="btn btn-primary" onClick={this.addContant}>Add contact</button><button className="btn btn-primary" onClick={this.changeflagvalue}>back</button>
             </div>
         }
     }

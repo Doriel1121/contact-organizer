@@ -91,7 +91,7 @@ export class Contact extends Component {
                             <input className="input-group-prepend" onChange={this.updateJob} type="text" defaultValue={this.props.contact.job}/> <br/>
                             <input className="input-group-prepend" onChange={this.updateAddress} type="text" defaultValue={this.props.contact.address}/>
                         </p>
-                        <button className="btn btn-primary" onClick={() => this.updateContactDetails}>save</button>
+                        <button className="btn btn-primary" onClick={this.updateContactDetails}>save</button>
                     </div>
                 </div>
             )
